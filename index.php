@@ -10,6 +10,7 @@
             {
                 echo "ID: " . $row["ID"]. " - Nama: " . $row["Nama"]. " " . $row["Kantor"]. "<br>";
             }
+            echo "<br> Jumlah Pengguna: " . mysqli_num_rows($res);
         }
     }
     else
